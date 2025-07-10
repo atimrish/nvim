@@ -16,7 +16,8 @@ local plugins = require('lazy').setup({
     require('plugins.treesitter'),
     --neo tree
     require('plugins.neo_tree'),
-
+    --colorizer
+    require('plugins.colorizer'),
 })
 
 return plugins
